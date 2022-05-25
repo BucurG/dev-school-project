@@ -18,7 +18,8 @@ final-project
 
 ```
 > **_NOTE:_** We recommend using a different file for each class you create. <br />
-> **_NOTE:_** The data.json file is file that needs to be populated with data you will use in your GET, PUT, POST, DELETE methods.
+> **_NOTE:_** The data.json file is file that needs to be populated with data you will use in your GET, PUT, POST, DELETE methods. <br />
+> **_NOTE:_** You can use **pip freeze -r requirements.txt** after you finish implementing your app in order to generate the requirements file.
 
 Useful links:
 - [clean code](https://dev.to/alexomeyer/10-must-know-patterns-for-writing-clean-code-with-python-56bf)
