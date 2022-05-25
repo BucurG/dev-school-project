@@ -17,7 +17,7 @@ final-project
     |   data.json
 
 ```
-> **_NOTE:_** We recommend using a different file for each class you create.
+> **_NOTE:_** We recommend using a different file for each class you create. <br />
 > **_NOTE:_** The data.json file is file that needs to be populated with data you will use in your GET, PUT, POST, DELETE methods.
 
 Useful links:
