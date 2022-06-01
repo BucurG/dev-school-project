@@ -4,6 +4,7 @@ from getMethod import blueprintGet
 from postMethod import blueprintPost
 from putMethod import blueprintPut
 from deleteMethod import blueprintDelete
+from getWeatherMethod import blueprintGetWeather
 
 # here is where you define your blueprint classes
 from homeMethod import blueprintHome
@@ -20,6 +21,7 @@ api_rest_port = 5001
 # we will create another class together
 app.register_blueprint(blueprintHome, url_prefix='/')
 app.register_blueprint(blueprintGet, url_prefix='/get')
+app.register_blueprint(blueprintGetWeather, url_prefix='/getWeather')
 app.register_blueprint(blueprintPost, url_prefix='/post')
 app.register_blueprint(blueprintPut, url_prefix='/put')
 app.register_blueprint(blueprintDelete, url_prefix='/delete')
